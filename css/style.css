@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.text-center
+{
+    text-align: center;
+    color: #0f0f0f;
+}
+.card
+{
+    height: 250px;
+    width: 250px;
+    border: 1px solid #ffffff;
+    border-radius: .25rem;
+}
+
+a{
+    text-decoration:none;
+    color: #0f0f0f;
+}
+
+a:hover
+{
+    font-size: 16.5px;
+    color: #708090;
+}
+
+.button
+{
+    background-color:#21B573;
+	border-radius:28px;
+	border:1px solid #21B573;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:16px;
+	padding:5px 22px;
+	text-decoration:none;
+    margin: 5px;
+}
+
+.content-padding
+{
+    padding: 30px 40px 40px;
+}
+
+#intro .intro-text
+{
+    padding: 15px;
+}
+
+#intro .intro-text p:nth-of-type(1)
+{
+    color: chocolate;
+}
+
+#intro .intro-text p:nth-of-type(2)
+{
+    padding-top: 10px;
+}
+
+
+#intro .intro-text strong
+{
+    color: #000000;
+    font-size: 50px;
+}
+
+#intro .intro-text strong span
+{
+    color:#21B573;
+}
+#intro .intro-text button
+{
+    padding:10px 22px;
+    margin-top: 10px;
+}
+
+#books
+{
+    
+    height: 360px;
+    padding-top: 80px;
+    padding-bottom: 25px;
+}
+
+#books .row .col-md-3 h4
+{
+    padding-top: 10px;
+    font-size: 24px;
+    color: #413960;
+}
+#books .row .col-md-3
+{
+
+border-bottom:100px;
+border-left:100px;
+border-right:100px;
+
+
+}
+#books .row .col-md-3 i
+{
+    padding-top: 30px;
+}
+
+#books .row .col-md-3:hover
+{
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#courses 
+{
+    
+    height: 700px;
+}
+
+ .course-content
+{
+    width: 1250px;
+    padding: 30px 20px 20px 150px;
+}
+#courses h1
+{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    font-weight: bold;
+}
+
+#courses .course-content .row
+{
+    height: 450px;
+    width: 1140px;
+}
+
+#courses .course-content .row .col-md-4
+{
+
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#courses  .course-content .row .col-md-4 h4
+{
+    color: #413960;
+    width: 250px;
+}
+
+
+#courses .row .col-md-4 .course-detail
+{
+    display: flex;
+    padding-top: 35px;
+    width: 320px;
+    
+}
+#courses .course-content  .col-md-4 .course-detail i{
+    font-size: 14px;
+}
+#courses .course-content .row .col-md-4 .course-detail .datetime
+{
+  padding-right: 50px;
+    
+}
+
+
+
+#courses .course-content .row .col-md-4:hover
+{
+    cursor: pointer;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+
+#
