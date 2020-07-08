@@ -18,14 +18,7 @@
 }
 
 a{
-    text-decoration:none;
-    color: #0f0f0f;
-}
-
-a:hover
-{
-    font-size: 16.5px;
-    color: #708090;
+    text-decoration: none;
 }
 
 .button
@@ -38,7 +31,6 @@ a:hover
 	color:#ffffff;
 	font-size:16px;
 	padding:5px 22px;
-	text-decoration:none;
     margin: 5px;
 }
 
@@ -46,6 +38,24 @@ a:hover
 {
     padding: 30px 40px 40px;
 }
+
+nav .row .col-md-6 a
+{
+    color: #0f0f0f;
+}
+
+nav .row .col-md-6 a:hover
+{
+    font-size: 16.5px;
+    color: #708090;
+}
+
+nav .row .col-md-6 ul li a:nth-of-type(5)
+{
+    color: #ffffff;
+}
+
+
 
 #intro .intro-text
 {
@@ -115,7 +125,6 @@ border-right:100px;
 
 #courses 
 {
-    
     height: 700px;
 }
 
@@ -175,5 +184,138 @@ border-right:100px;
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.3);
 }
 
+#others
+{
+    height: 400px;
+    width: 900px;
+    margin: auto;
+    
+}
 
-#
+#others h1
+{
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+}
+
+#others .row 
+{
+    padding-top: 15px;
+}
+
+#others .row .col-md-3
+{
+    padding-left: 45px;
+    padding-top: 5px;
+}
+
+
+
+#others .row .col-md-9
+{
+    margin: auto;
+}
+
+footer
+{
+    background-color: #282531;
+    color: #ffffff;
+}
+
+footer .footer-head
+{
+    padding: 80px 70px 45px;
+}
+
+footer .footer-head .row .col-md-8 >.row .col-md-4 ul li
+{
+    list-style-type: none;
+    line-height: 30px;
+}
+
+footer .footer-head .row .col-md-8 >.row .col-md-4 ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer .footer-head .row .col-md-8 >.row .col-md-4 ul li:nth-of-type(1){
+    font-weight: bold;
+}
+
+
+
+footer .footer-body
+{
+    padding: 50px 70px 25px;
+}
+
+footer .footer-body .body-text
+{
+    width: 1180px;
+    height: 50px;
+    position: relative;
+    display: inline-block;
+}
+footer .footer-body .body-text p{
+    right: 400px;
+    position: absolute;
+    top: 12px;
+
+}
+
+
+footer .footer-body .body-text .icon-conatiner
+{ 
+    position: absolute;
+    width: 247px;
+    right: 0;
+
+}
+
+footer .footer-body .body-text .icon-conatiner .icon
+{
+    color: #ffffff;
+    list-style-type: none;
+    display: inline-block;
+
+}
+footer .footer-body .body-text .icon-conatiner .icon li
+{
+    display: inline-block;
+    font-size: 20px;
+    margin: 15px;
+    position: relative;
+
+
+}
+footer .footer-body  .body-text .icon-conatiner .icon i
+{
+    color: #ffffff;
+    position: absolute;
+
+}
+
+/* footer .icon-conatiner .icon::before
+{
+   transform: scale(1);
+   display: block;
+
+} */
+
+/* footer .icon-conatiner .icon:hover::before
+{
+    transform: scale(0);
+    transition: all 0.5s ease-out;
+} */
+
+ footer .footer-body  .body-text .icon-conatiner .icon i:hover
+{
+    transform: scale(1.4);
+    color: #9E9E9E;
+    transition: all .3s ease-in;
+    
+}  
