@@ -9,23 +9,30 @@
     text-align: center;
     color: #0f0f0f;
 }
-.card
+.card1
 {
-    height: 250px;
-    width: 250px;
+    /* height: 210px;
+    width: 250px; */
     border: 1px solid #ffffff;
     border-radius: .25rem;
+    padding-top: 20px;
+    /* padding-left: 20px; */
+}
+.card2
+{
+    /* height: 465px;
+    width: 330px; */
+    border: 1px solid #ffffff;
+    border-radius: .25rem;
+    padding-top: 25px;
 }
 
 a{
-    text-decoration:none;
-    color: #0f0f0f;
+    text-decoration: none;
 }
 
-a:hover
-{
-    font-size: 16.5px;
-    color: #708090;
+a:hover{
+    text-decoration: none;
 }
 
 .button
@@ -38,7 +45,6 @@ a:hover
 	color:#ffffff;
 	font-size:16px;
 	padding:5px 22px;
-	text-decoration:none;
     margin: 5px;
 }
 
@@ -47,53 +53,80 @@ a:hover
     padding: 30px 40px 40px;
 }
 
-#intro .intro-text
+nav .row .col-md-6 a
+{
+    color: #0f0f0f;
+}
+
+nav .row .col-md-6 a:hover
+{
+    font-size: 16.5px;
+    color: #708090;
+}
+
+nav .container div ul li a:nth-of-type(5)
+{
+    color: #ffffff;
+}
+
+
+
+
+
+/* home */
+
+#home .intro-text
 {
     padding: 15px;
 }
 
-#intro .intro-text p:nth-of-type(1)
+#home .intro-text p:nth-of-type(1)
 {
     color: chocolate;
 }
 
-#intro .intro-text p:nth-of-type(2)
+#home .intro-text p:nth-of-type(2)
 {
     padding-top: 10px;
 }
 
 
-#intro .intro-text strong
+#home .intro-text strong
 {
     color: #000000;
     font-size: 50px;
 }
 
-#intro .intro-text strong span
+#home .intro-text strong span
 {
     color:#21B573;
 }
-#intro .intro-text button
+#home .intro-text button
 {
     padding:10px 22px;
     margin-top: 10px;
 }
+/* home */
 
-#books
+
+
+
+
+/* counter */
+#counter
 {
     
-    height: 360px;
     padding-top: 80px;
     padding-bottom: 25px;
 }
 
-#books .row .col-md-3 h4
+#counter .row .col-md-3 h4
 {
     padding-top: 10px;
     font-size: 24px;
     color: #413960;
 }
-#books .row .col-md-3
+#counter .row .col-md-3
 {
 
 border-bottom:100px;
@@ -102,22 +135,94 @@ border-right:100px;
 
 
 }
-#books .row .col-md-3 i
+#counter .row .col-md-3 i
 {
     padding-top: 30px;
 }
 
-#books .row .col-md-3:hover
+#counter .row .card1:hover
 {
     cursor: pointer;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
+/* counter */
 
-#courses 
+
+
+
+
+
+/*books*/
+#books .carousel-item
 {
-    
-    height: 700px;
+    padding: 25px;
 }
+
+#books .carousel-item .row h1
+{
+    font-weight: bold;
+   text-transform: uppercase;
+}
+
+#books .carousel-item .row h4:nth-of-type(2)
+{
+    color: pink;
+}
+
+.button-buy {
+  background-color: #035A64; 
+  border: none;
+  color: white;
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.buy1
+{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #035A64;
+}
+.buy1:hover
+{
+    background-color: #035A64;
+    color: white;
+}
+
+.buy2
+{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #74A48E;
+}
+.buy2:hover
+{
+    background-color: #74A48E;
+    color: white;
+}
+.buy3
+{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #F7674D;
+}
+.buy3:hover
+{
+    background-color: #F7674D;
+    color: white;
+}
+
+.carousel-text
+{
+    padding-left: 100px;
+}
+
+/*books*/
 
  .course-content
 {
@@ -126,10 +231,9 @@ border-right:100px;
 }
 #courses h1
 {
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 80px;
     font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 #courses .course-content .row
@@ -151,29 +255,171 @@ border-right:100px;
 }
 
 
-#courses .row .col-md-4 .course-detail
+#courses .row .card2 .course-detail
 {
-    display: flex;
-    padding-top: 35px;
-    width: 320px;
-    
+    padding-top: 10px;
+    position: relative;
 }
-#courses .course-content  .col-md-4 .course-detail i{
+#courses .row .card2 .course-detail i{
     font-size: 14px;
 }
-#courses .course-content .row .col-md-4 .course-detail .datetime
+#courses .row .card2 .course-detail .datetime
 {
-  padding-right: 50px;
-    
+    position: absolute;
+    left: 0;
+}
+#courses .row .card2 .course-detail .seats
+{
+    position: absolute;
+    right: 0;
 }
 
-
-
-#courses .course-content .row .col-md-4:hover
+#courses .row .card2:hover
 {
     cursor: pointer;
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.3);
 }
 
+#testimonial
+{
+    width: 900px;
+    margin: auto;
+    
+}
 
-#
+#testimonial h1
+{
+    font-weight: bold;
+    color: #000000;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+}
+
+#testimonial .row 
+{
+
+    padding-top: 15px;
+}
+
+#testimonial .row img
+{
+    padding-left: 35px;
+   
+    padding-bottom: 35px;
+}
+
+/* #others .row .col-8,.col-sm-8,.col-md-8
+{
+    padding-right: 130px;
+}
+
+#others .row img .col-12 ,.col-sm-12 ,.col-md-12
+{
+    padding-left: 100px;
+} */
+
+#testimonial .row .col-md-9
+{
+    margin: auto;
+}
+
+
+footer
+{
+    background-color: #282531;
+    color: #ffffff;
+}
+
+footer .footer-head
+{
+    padding: 80px 70px 45px;
+}
+
+footer .footer-head .row .col-md-8 >.row .col-md-4 ul li
+{
+    list-style-type: none;
+    line-height: 30px;
+}
+
+footer .footer-head .row .col-md-8 >.row .col-md-4 ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer .footer-head .row .col-md-8 >.row .col-md-4 ul li:nth-of-type(1){
+    font-weight: bold;
+}
+
+
+
+footer .footer-body
+{
+    padding: 50px 50px 25px;
+}
+
+footer .footer-body 
+{
+   
+    width: 1350px;
+    
+}
+footer .footer-body .row
+{
+    text-align: center;
+}
+
+
+footer .footer-body p{
+    color: #ffffff;
+    
+}
+
+footer .footer-body .icon-conatiner
+{
+    padding-right: 50px;
+}
+
+footer .footer-body .icon-conatiner .icon
+{
+    color: #ffffff;
+    list-style-type: none;
+    display: inline-block;
+
+}
+footer .footer-body .icon-conatiner .icon li
+{
+    display: inline-block;
+    font-size: 20px;
+    margin: 15px;
+    position: relative;
+
+
+}
+footer .footer-body .icon-conatiner .icon i
+{
+    color: #ffffff;
+    position: absolute;
+
+}
+
+ footer .footer-body .icon-conatiner .icon::before
+{
+   transform: scale(1);
+   display: block;
+
+} 
+
+ footer .footer-body .icon-conatiner .icon:hover::before
+{
+    transform: scale(0);
+    transition: all 0.5s ease-out;
+} 
+
+ footer .footer-body  .icon-conatiner .icon i:hover
+{
+    transform: scale(1.4);
+    color: #9E9E9E;
+    transition: all .3s ease-in;
+    
+}   
